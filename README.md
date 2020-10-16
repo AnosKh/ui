@@ -225,11 +225,11 @@ $ php artisan vendor:publish --tag=loop-ui-uikit-assets-src
 ```js
 // Bootstrap
 mix.js('resources/assets/bootstrap/js/app.js',  'public/assets/bootstrap/js/app.js');
-mix.sass('assets/bootstrap/sass/app.scss', 'public/assets/bootstrap/css/app.css');
+mix.sass('resources/assets/bootstrap/sass/app.scss', 'public/assets/bootstrap/css/app.css');
 
 // UIKit
 mix.js('resources/assets/uikit/js/app.js', 'public/assets/uikit/js/app.js');
-mix.sass('assets/uikit/sass/app.scss', 'public/assets/uikit/css/app.css');
+mix.sass('resources/assets/uikit/sass/app.scss', 'public/assets/uikit/css/app.css');
 ```
 
 > NOTE: You can change path of source and where files are published in public folder, in that case
